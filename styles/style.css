@@ -1,13 +1,45 @@
-.titulo{
+.titulo {
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
 }
 
-.bonequinha{
+.bonequinha {
     display: flex;
     justify-content: center;
     padding-top: 0px;
     padding-bottom: 0px;
+}
+
+.sobremim {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+
+.sobremim h2 {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+.sobremim p {
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    z-index: 1; 
+    padding-top: 250px;
+    padding-left: 40px;
+}
+
+
+.fundo{
+    position: relative;
+    padding-left: 180px;
+    padding-bottom: 200px;
 }
