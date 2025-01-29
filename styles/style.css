@@ -36,6 +36,7 @@ img:hover:not(.fundo) {
   padding-left: 250px;
   padding-top: 280px;
   text-align: center;
+  color: white;
 }
 
 .gostos p {
