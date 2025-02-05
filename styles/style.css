@@ -33,8 +33,6 @@ img:hover:not(.fundo) {
   justify-content: center;
   font-size: 30px;
   position: absolute;
-  padding-left: 250px;
-  padding-top: 280px;
   text-align: center;
   color: white;
 }
@@ -56,4 +54,10 @@ img:hover:not(.fundo) {
   padding-left: 120px;
   transition: .2s transform, .2s box-shadow;
   
+}
+
+.rabisco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
