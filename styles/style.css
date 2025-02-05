@@ -7,6 +7,8 @@ img:hover:not(.fundo) {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+
+/* meu nome na barra de informaçoes */
 .titulo {
     background-color: black;
     color: white;
@@ -14,11 +16,15 @@ img:hover:not(.fundo) {
     justify-content: center;
 }
 
+
+/* imagem inicial da minha personagem em pixelart */
 .bonequinha {
     display: flex;
     justify-content: center;
     padding-top: 100px;
 }
+
+
 
 .sobremim h2{
   display: flex;
@@ -27,6 +33,7 @@ img:hover:not(.fundo) {
   padding-bottom: 50px;
   font-size: 50px;
 }
+
 
 .sobremim p {
   display: flex;
@@ -45,10 +52,12 @@ img:hover:not(.fundo) {
   font-size: 50px;
 }
 
+/* animação pras fotos */
 .carroussel{
   animation: slide 2s linear infinite;
 }
 
+/*imagens das coisas que gostos(livros, filmes e musicas) */
 .imgGostos{
   width: 25%;
   padding-left: 120px;
@@ -56,7 +65,9 @@ img:hover:not(.fundo) {
   
 }
 
-.rabisco{
+
+/* imagem vermelha no fundo da minha descrição */
+.backgroundRed{
   display: flex;
   justify-content: center;
   align-items: center;
